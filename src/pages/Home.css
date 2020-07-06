@@ -1,0 +1,37 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+ion-item {
+  background-color: azure;
+}
+
+h2 {
+  font-family: SHanBold ;
+}
+
+ion-thumbnail {
+  background-color:white;
+  padding-top: 10Px;
+  margin-right: 20Px;
+  border-radius: 5Px 5Px 5Px 5Px;
+}
+
+ion-item  ion-icon {
+  color: rgb(105, 105, 105);
+}
+
+@media (prefers-color-scheme: dark) {
+
+  ion-thumbnail {
+    background-color:rgb(83, 82, 82);
+    padding-top: 10Px;
+    margin-right: 20Px;
+    border-radius: 5Px 5Px 5Px 5Px;
+  }
+
+  ion-item  ion-icon {
+    color: rgb(255, 255, 255);
+  }
+
+}

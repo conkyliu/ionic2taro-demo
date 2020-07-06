@@ -1,0 +1,30 @@
+ion-card-content , .sample-calendar-row {
+    --ion-grid-columns:14;
+}
+
+ion-modal > ion-content {
+    --padding-start:30Px;
+    --padding-end:30Px;
+}
+
+.calenderSelector  {
+    background-color: white;
+}
+
+.calenderSelector  .submitButton {
+    font-family: 'SHanBold';
+    z-index: 100;
+    color: white;
+    width:66%;
+    height:32Px;
+    --background:linear-gradient(319deg,rgba(132,157,237,1) 0%,rgba(77,100,215,1) 100%);
+    --border-radius:18Px;
+    position: fixed;
+
+}
+
+.canlendarImageBg {
+    background-image: url(./_imgs/8.png);
+    background-repeat:repeat-y;
+    background-size:100% 100%;
+}

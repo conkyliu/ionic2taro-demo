@@ -1,0 +1,12 @@
+.card{
+    opacity: 0.8;
+    background:rgba(255,255,255,0.7);
+    box-shadow:0Px 5Px 20Px 0Px rgba(0,0,0,0.12);
+    border-radius:8Px;
+    /*padding-top:22Px;*/
+    /*padding-bottom: 22Px;*/
+}
+
+@media (prefers-color-scheme: dark) {
+
+}

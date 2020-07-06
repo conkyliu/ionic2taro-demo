@@ -1,0 +1,242 @@
+ion-row {
+    --ion-grid-columns:14;
+}
+
+.calendarcell {
+    font-family: 'SHanNormal';
+    padding-left: 0Px ;
+    padding-top: 3Px ;
+    padding-bottom: 4Px ;
+    padding-right: 0Px ;
+    font-size: 18Px;
+    color: #525252;
+}
+
+.calendarcell .disabled {
+    color: #D8D8D8;
+}
+
+.calendarcell .expired {
+    color: #A5A5A5;
+}
+
+.calendarcell .subject {
+    font-family: 'SHanNormal';
+    width: 100%;
+    padding-top: 1Px;
+    padding-bottom: 2Px;
+    font-size: 10Px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: hidden;
+    -o-text-overflow: hidden;
+    white-space:nowrap;
+    color: #5F5F5F;
+}
+
+
+.calendarcell .personalTraining {
+    margin-top: -18Px;
+    border-bottom:2Px solid #D2D2D2;
+}
+
+.calendarcell .plan-training-start {
+    width:100%;
+    height:24Px;
+    margin-top: -26Px;
+    background:rgba(95,95,95,1);
+    border-radius:100Px 0Px 0Px 100Px;
+}
+
+.calendarcell .plan-training-mid {
+    width:100%;
+    height:24Px;
+    margin-top: -26Px;
+    background:rgba(95,95,95,1)
+    /** border-radius:0Px 100Px 100Px 0Px; **/
+}
+
+.calendarcell .plan-training-end {
+    width:100%;
+    height:24Px;
+    margin-top: -26Px;
+    background:rgba(95,95,95,1);
+    border-radius:0Px 100Px 100Px 0Px;
+}
+
+.calendarcell .unpaid{
+    position: relative;
+    margin-top: -55Px;
+    font-weight:bolder ;
+    padding-left: 26Px;
+}
+
+.calendarcell .plan-rest {
+    width:100%;
+    height:24Px;
+    margin-top: -26Px;
+    border:1Px solid rgba(95,95,95,1);
+}
+
+.calendarcell .plan-rest-text
+{
+    color:rgba(210,210,210,1);
+}
+
+.calendarcell .plan-training-text
+{
+    color: rgba(255,255,255,1);
+}
+
+.calendarcell .plan-rest-mid {
+    width:100%;
+    height:24Px;
+    margin-top: -26Px;
+    border:1Px solid rgba(95,95,95,1);
+    border-left: none;
+    border-right: none;
+}
+
+.calendarcell .plan-rest-start {
+    width:100%;
+    height:24Px;
+    margin-top: -26Px;
+    border:1Px solid rgba(95,95,95,1);
+    border-right: none;
+}
+
+.calendarcell .plan-rest-end {
+    width:100%;
+    height:24Px;
+    margin-top: -26Px;
+    border:1Px solid rgba(95,95,95,1);
+    border-left: none;
+}
+
+.calendarcell .plan-expired {
+    background:rgba(210,210,210,1);
+    border-color: rgba(210,210,210,1);
+}
+
+.calendarcell .plan-rest-expired {
+    border-color:rgba(210,210,210,1);
+}
+
+.calendarcell .plan-defer-mid {
+    width: 100%;
+    height:24Px;
+    margin-top: -26Px;
+    border-top:1Px dashed rgba(210,210,210,1);
+    border-bottom:1Px dashed rgba(210,210,210,1);
+}
+
+.calendarcell .plan-defer-end {
+    width: 100%;
+    height:24Px;
+    margin-top: -26Px;
+    border-radius:0Px 100Px 100Px 0Px;
+    border-top:1Px dashed rgba(210,210,210,1);
+    border-bottom:1Px dashed rgba(210,210,210,1);
+    border-right:1Px dashed rgba(210,210,210,1);
+}
+
+/* .calendarcell .plan-defer-start {
+    width: 10%;
+    height: 24Px;
+    margin-top: -42Px;
+    position: relative;
+    float: right;
+    border-top:1Px dashed rgba(210,210,210,1);
+    border-bottom:1Px dashed rgba(210,210,210,1);
+} */
+
+.calendarcell  .calendarcell-today {
+    color: #FA7272 !important;
+    font-weight:bold;
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+    .calendarcell {
+        color: #525252;
+    }
+
+    .calendarcell .calendarcell-today {
+        color: #FA7272  !important;
+    }
+
+    .calendarcell .disabled {
+        color: #D8D8D8;
+    }
+
+    .calendarcell .expired {
+        color: rgb(187, 185, 185);
+    }
+
+    .calendarcell .plan-training-text
+    {
+        color: rgba(255,255,255,1);
+    }
+
+
+    .calendarcell .personalTraining {
+        border-bottom:2Px solid #D2D2D2;;
+    }
+
+    .calendarcell .plan-training-start {
+        background:rgba(95,95,95,1);
+    }
+
+    .calendarcell .plan-training-mid {
+        background:rgba(95,95,95,1);
+    }
+
+    .calendarcell .plan-training-end {
+        background:rgba(95,95,95,1);
+    }
+
+    .calendarcell  .plan-expired {
+        background:rgba(210,210,210,1);
+        border-color: rgba(210,210,210,1);
+    }
+
+
+    .calendarcell .plan-defer-mid {
+        border-top:1Px dashed rgba(94, 104, 134,1);
+        border-bottom:1Px dashed rgba(94, 104, 134,1);
+    }
+
+    .calendarcell .plan-defer-end {
+        border-top:1Px dashed rgba(94, 104, 134,1);
+        border-bottom:1Px dashed rgba(94, 104, 134,1);
+        border-right:1Px dashed rgba(94, 104, 134,1);
+    }
+
+
+    .calendarcell .plan-defer-start {
+        border-top:1Px dashed rgba(94, 104, 134,1);
+        border-bottom:1Px dashed rgba(94, 104, 134,1);
+    }
+
+    .calendarcell .plan-rest {
+        border:1Px solid   rgba(95,95,95,1);
+    }
+
+    .calendarcell .plan-rest-mid {
+        border:1Px solid  rgba(95,95,95,1);
+        border-left: none;
+        border-right: none;
+    }
+
+    .calendarcell .plan-rest-start {
+        border:1Px solid  rgba(210,210,210,1);
+        border-right: none;
+    }
+
+    .calendarcell .plan-rest-end {
+        border:1Px solid  rgba(210,210,210,1);
+        border-left: none;
+    }
+
+}

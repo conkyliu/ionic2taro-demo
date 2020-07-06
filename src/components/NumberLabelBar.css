@@ -1,0 +1,106 @@
+.qjs-numberlabelbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 35Px;
+}
+.qjs-numberlabelbar >.item1 {
+    /*flex:1;*/
+    width:25Px;
+    font-size:18Px;
+    color:rgba(82,82,82,1);
+    line-height:30Px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    white-space:nowrap;
+    margin-top: 2Px;
+}
+.qjs-numberlabelbar >.item2 {
+    flex:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    font-size:18Px;
+    font-weight:bold;
+    color:rgba(82,82,82,1);
+    line-height:30Px;
+    /*background:rgba(244,244,244,1);*/
+    border-radius:2Px;
+    white-space:nowrap;
+}
+.qjs-numberlabelbar >.item3 {
+    flex:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#A5A5A5;
+    font-weight:400;
+    color:rgba(165,165,165,1);
+    line-height:23Px;
+    white-space:nowrap;
+}
+.qjs-numberlabelbar >.item4 {
+    flex:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#525252;
+    white-space:nowrap;
+}
+.qjs-numberlabelbar >.item5 {
+    flex:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size:18Px;
+    font-weight:bold;
+    color:rgba(82,82,82,1);
+    line-height:30Px;
+    color:#525252;
+    white-space:nowrap;
+}
+.qjs-numberlabelbar >.item6 {
+    flex:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#A5A5A5;
+    white-space:nowrap;
+}
+.qjs-numberlabelbar >.item7 {
+    flex:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:#A5A5A5;
+    white-space:nowrap;
+}
+
+.qjs-numberlabelbar >.item5 >.btn {
+    flex:1;
+    white-space:nowrap;
+    width: 20Px;
+    height: 20Px;
+}
+.qjs-numberlabelbar >.item6 >.btn {
+    flex:3;
+    white-space:nowrap;
+    width: 20Px;
+    height: 20Px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+}

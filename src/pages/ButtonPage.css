@@ -1,0 +1,26 @@
+ion-note {
+    color:#000000;
+}
+
+.tile{
+    margin-top:20Px;
+    /*margin-buttom:10Px;*/
+    margin-left:10Px;
+    margin-right:10Px;
+    /*margin:0Px auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80Px;
+}
+.tile >.item{
+    width: 100%;
+    height: 100%;
+    margin-left:5Px;
+    margin-right:5Px;
+}
+@media (prefers-color-scheme: dark) {
+    ion-note {
+        color:#d6d6d6;
+    }
+}

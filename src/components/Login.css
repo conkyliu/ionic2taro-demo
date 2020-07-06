@@ -1,0 +1,30 @@
+
+
+.loginForm {
+    font-size: 13Px !important;
+}
+
+.inputItem {
+    font-size: 13Px !important;
+    margin-top: 0Px;
+    margin-left: -10Px;
+    height: 60Px;
+    /* border-bottom: 1Px solid #a5a5a5; */
+}
+
+ion-popover {
+    opacity: 0.7;
+}
+
+.submitbtn {
+    font-size: 13Px;
+    padding: 1Px;
+    height: 24Px;
+}
+
+.pincode{
+    font-size: 13Px;
+    padding-right: 0Px;
+}
+
+

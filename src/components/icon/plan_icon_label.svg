@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49Px" height="49Px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>plan_icon_label</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="5.59971098%" x2="50%" y2="80.7291667%" id="linearGradient-1">
+            <stop stop-color="#849DED" offset="0%"></stop>
+            <stop stop-color="#4D64D7" offset="100%"></stop>
+        </linearGradient>
+        <path d="M9,0 L40,0 C41.1045695,-2.02906125e-16 42,0.8954305 42,2 L42,46.461238 C42,47.0135228 41.5522847,47.461238 41,47.461238 C40.8600817,47.461238 40.7217205,47.4318758 40.5938615,47.3750496 L24.4180246,40.1857887 C24.1525698,40.0678088 23.8489317,40.071091 23.5860891,40.1947816 L8.42579704,47.3290367 C7.92607947,47.5641979 7.33034251,47.3497326 7.0951813,46.850015 C7.03250057,46.7168185 7,46.571426 7,46.424218 L7,2 C7,0.8954305 7.8954305,2.02906125e-16 9,0 Z" id="path-2"></path>
+        <filter x="-20.0%" y="-10.5%" width="140.0%" height="129.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.289855072 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1.20-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="计划完成后第二步" transform="translate(-288.000000, -509.000000)">
+            <g id="编组" transform="translate(33.000000, 118.000000)">
+                <g id="零基础轻松减脂3-3" transform="translate(0.000000, 391.000000)">
+                    <g id="分组-2-copy-2">
+                        <g id="编组" transform="translate(255.000000, 0.000000)">
+                            <g id="矩形">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                            <text id="免费" font-family="SourceHanSansCN-Medium, Source Han Sans CN" font-size="14" font-weight="400" fill="#FFFFFF">
+                                <tspan x="10" y="24">免费</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+.qjs-select{
+    opacity: 0.7;
+    height: 48Px;
+    width: 100%;
+    background:#FFFFFF;
+    border-radius:4Px;
+    display: flex;
+    padding-left: 8Px;
+    padding-right: 16Px;
+    padding-top: 7Px;
+    padding-bottom: 13Px;
+    white-space:nowrap;
+}
+
+.qjs-select ion-icon{
+    /*flex: 1;*/
+    width: 36Px;
+    line-height:21Px;
+    font-size: 22Px;
+}
+
+.qjs-select ion-text{
+    font-size: 14Px;
+    line-height:21Px;
+}
+
+.qjs-select .value{
+    font-weight: bold;
+    color: #525252;
+    font-size: 16Px;
+    line-height:21Px;
+}
+.qjs-select .action{
+    width: 14Px;
+    color:#52525255;
+    line-height:21Px;
+}
+
+.qjs-select .datetime{
+    --placeholder-color:#525252;
+    font-size: 16Px;
+    line-height:21Px;
+}

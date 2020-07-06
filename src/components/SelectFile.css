@@ -1,0 +1,88 @@
+.qjs-photo{
+
+}
+
+.qjs-photo >.pics{
+    width: 100%;
+}
+.qjs-photo >.pics>.item{
+    margin: 2.5Px;
+    position: relative;
+    width:auto;
+    height: auto;
+}
+.qjs-photo >.pics>.item>.del{
+    position: absolute;
+    right:7Px;
+    top:7Px;
+    width: 20Px;
+    height: 20Px;
+    /*background-image: url("./icon/img_del.svg");*/
+}
+
+.qjs-photo >.pics ion-img{
+    width:96Px;
+    height: 96Px;
+    background:rgba(210,210,210,1);
+    border-radius:4Px;
+    background-size: 100% auto;
+    background-position:top center;
+}
+.qjs-photo >.pics >.album{
+    margin: 2.5Px;
+    position: relative;
+    width: 96Px;
+    height: 96Px;
+    background-color: #FFFFFF;
+    border-radius: 5Px;
+    border:1Px dashed #A5A5A5;
+    background-image: url("./icon/btn_add.svg");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.qjs-photo >.pics >.album >.photo{
+    position: absolute;
+    top:0Px;
+    left:0Px;
+    right:0Px;
+    bottom:0Px;
+    width: 96Px;
+    height: 96Px;
+    opacity: 0;
+    z-index: 1;
+}
+.qjs-photo >.pics >.camera{
+    margin: 2.5Px;
+    position: relative;
+    width: 96Px;
+    height: 96Px;
+    background-color: #FFFFFF;
+    border-radius: 5Px;
+    border:1Px dashed #A5A5A5;
+    background-image: url("./icon/detail_btn_photo.svg");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.qjs-photo >.pics >.camera >.photo {
+    position: absolute;
+    top:0Px;
+    left:0Px;
+    right:0Px;
+    bottom:0Px;
+    width: 96Px;
+    height: 96Px;
+    opacity: 0;
+    z-index: 1;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+}

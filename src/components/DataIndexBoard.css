@@ -1,0 +1,41 @@
+.qjs-dataindexboard{
+    background:rgba(245,246,255,1);
+    border-radius:4Px;
+    padding-left: 17Px;
+    padding-right: 17Px;
+    padding-bottom: 17Px;
+    min-width: 300Px;
+}
+.qjs-dataindexboard >.divider{
+    height: 1Px;
+    background: #BFC9FF;
+}
+
+.qjs-dataindexboard >.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qjs-dataindexboard >.row{
+    display: flex;
+}
+.qjs-dataindexboard >.row >.dividervertical{
+    width: 1Px;
+    background: #BFC9FF;
+}
+.qjs-dataindexboard >.row >.left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.qjs-dataindexboard >.row >.right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media (prefers-color-scheme: dark) {
+
+}

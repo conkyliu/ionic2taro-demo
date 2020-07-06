@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50Px" height="50Px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>detail_btn_play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1.20-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="训练热身次数" transform="translate(-164.000000, -188.000000)">
+            <g id="detail_btn_play" transform="translate(164.000000, 188.000000)">
+                <circle id="椭圆形" stroke="#5F5F5F" fill-opacity="0.6" fill="#FFFFFF" cx="25" cy="25" r="25"></circle>
+                <path d="M27.8516583,20.3839448 L34.0620939,30.4759026 C34.3515449,30.9462605 34.2048909,31.5622073 33.734533,31.8516583 C33.5769253,31.9486477 33.3954954,32 33.2104356,32 L20.7895644,32 C20.2372797,32 19.7895644,31.5522847 19.7895644,31 C19.7895644,30.8149402 19.8409168,30.6335103 19.9379061,30.4759026 L26.1483417,20.3839448 C26.4377927,19.9135869 27.0537395,19.7669329 27.5240974,20.0563839 C27.6574179,20.1384272 27.769615,20.2506243 27.8516583,20.3839448 Z" id="三角形" fill="#5F5F5F" transform="translate(27.000000, 25.500000) rotate(-270.000000) translate(-27.000000, -25.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

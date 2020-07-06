@@ -1,0 +1,55 @@
+.qjs-keyboard{
+    /*padding-top: 2Px;*/
+    /*padding-left: 23Px;*/
+    padding-bottom: 23Px;
+    /*padding-right: 44Px;*/
+    background:linear-gradient(314deg,rgba(242,245,255,1) 0%,rgba(231,235,255,1) 100%);
+    /*position: relative;*/
+    position: absolute;
+    bottom: 0Px;
+    left: 0Px;
+    right: 0Px;
+    top:auto;
+}
+.qjs-keyboard .row{
+    display: flex;
+    margin-right: 21Px;
+}
+.qjs-keyboard .btn{
+    margin-top:23Px;
+    margin-left:21Px;
+    flex:1;
+    width:94Px;
+    height:44Px;
+    line-height:44Px;
+    font-size: 31Px;
+    border-radius: 4Px;
+    border:1Px solid #4D64D7;
+    color:#4D64D7;
+}
+.qjs-keyboard .btn:active{
+    border:1Px solid #BFC9FF;
+    background:#BFC9FF;
+}
+.qjs-keyboard .del{
+    margin-top:23Px;
+    margin-left:21Px;
+    flex:1;
+    width:94Px;
+    height:44Px;
+    line-height:44Px;
+    font-size: 31Px;
+    border-radius: 4Px;
+    border:1Px solid #FA7272;
+    color:#FA7272;
+
+}
+.qjs-keyboard .del:active{
+    border:1Px solid #FA7272;
+    background: #FA7272;
+    color:#ffffff;
+
+}
+@media (prefers-color-scheme: dark) {
+
+}

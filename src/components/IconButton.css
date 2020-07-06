@@ -1,0 +1,46 @@
+.qjs-iconbutton{
+    height: 20Px;
+    width:auto;
+    display: flex;
+    color:#5F5F5F;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    min-width:80Px;
+}
+
+.qjs-iconbutton >.icon{
+    border-top-left-radius: 11Px;
+    border-bottom-left-radius: 11Px;
+    border:1Px solid #5F5F5F;
+    height: auto;
+    width: 30Px;
+
+    background: #5F5F5F;
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.qjs-iconbutton >.name{
+    flex:1;
+    font-size:12Px;
+    line-height:20Px;
+    font-weight:400;
+    padding-left:10Px;
+    padding-right:10Px;
+
+    border-top-right-radius: 11Px;
+    border-bottom-right-radius: 11Px;
+    border:1Px solid rgba(95,95,95,1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (prefers-color-scheme: dark) {
+
+}

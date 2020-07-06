@@ -1,0 +1,22 @@
+.qjs-icondate{
+    display: flex;
+    height: auto;
+    width: 100%;
+    color:rgba(210,210,210,1);
+    font-weight:400;
+    font-size:13Px;
+    min-width: 50Px;
+    flex: 1;
+}
+.qjs-icondate >.icon{
+    height: auto;
+}
+
+.qjs-icondate >.label{
+    flex:1;
+    margin-left: 5Px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+}

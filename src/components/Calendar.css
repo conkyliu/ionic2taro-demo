@@ -1,0 +1,77 @@
+.calendar .bottomBorder{
+    --ion-grid-columns:14;
+    padding: 0Px;
+    width:100%;
+    background:rgba(255,255,255,1);
+    box-shadow:0Px 2Px 4Px 0Px rgba(77,100,215,0.22);
+    border-radius:0Px 0Px 10Px 10Px;
+}
+
+.calendar .noBorder {
+    box-shadow: 0Px 0Px 0Px 0Px;
+    border: none;
+    background:transparent;
+    border-radius:0Px 0Px 0Px 0Px;
+}
+
+.calendar .dayofWeek{
+    font-size:18Px;
+    font-weight:500;
+    color:rgba(165,165,165,1);
+    line-height:25Px;
+}
+
+.calendar .dayofWeek div {
+    font-family: 'SHanNormal';
+    width: 100%;
+    overflow: hidden;
+    font-weight: bolder;
+    text-overflow: hidden;
+    -o-text-overflow: hidden;
+    white-space:nowrap;
+}
+
+.calendar .caldendar-head{
+    font-family: 'SHanNormal';
+    font-size:20Px;
+    font-weight:bolder;
+    height: 35Px;
+    color:rgba(95,95,95,1);
+    line-height:30Px;
+}
+
+.caldendar-head .arrows{
+    color: #D2D2D2;
+    font-size: 20Px;
+    padding: 0Px;
+}
+.caldendar-head .ion-text-right,.ion-text-left{
+    padding-left: 0Px;
+    padding-right: 0Px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .calendar .bottomBorder{
+        background:rgba(255,255,255,1);
+        box-shadow:0Px 2Px 4Px 0Px rgba(77,100,215,0.22);
+    }
+
+    .calendar .noBorder {
+        background:transparent;
+    }
+
+    .calendar .dayofWeek{
+        color:rgba(165,165,165,1);
+    }
+
+
+    .calendar .caldendar-head{
+        color:rgba(95,95,95,1);
+    }
+
+    .caldendar-head .arrows{
+        color: #D2D2D2;
+    }
+
+}

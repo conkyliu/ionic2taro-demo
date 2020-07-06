@@ -1,0 +1,43 @@
+.qjs-totaltile{
+    display: flex;
+    background:rgba(245,246,255,1);
+    border-radius:4Px;
+    min-height: 50Px;
+    min-width: 100Px;
+}
+.qjs-totaltile >.col{
+    padding-left:39Px;
+    padding-top:20Px;
+    padding-bottom:20Px;
+    font-size:20Px;
+    font-weight:bold;
+    color:rgba(77,100,215,1);
+    line-height:30Px;
+    flex:1;
+    text-align: left;
+}
+.qjs-totaltile >.col >.name {
+    font-size: 18Px;
+    font-weight:bold;
+    color:rgba(77,100,215,1);
+    line-height:26Px;
+    flex: 1;
+}
+.qjs-totaltile >.col >.value {
+    font-size:24Px;
+    font-weight:bold;
+
+    color:rgba(77,100,215,1);
+    line-height:36Px;
+    display: flex;
+}
+
+.qjs-totaltile >.divider{
+    margin-top:18Px;
+    margin-bottom:18Px;
+    width: 1Px;
+    background: #BFC9FF;
+}
+@media (prefers-color-scheme: dark) {
+
+}

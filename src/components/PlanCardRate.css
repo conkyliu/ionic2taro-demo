@@ -1,0 +1,114 @@
+.qjs-cardrate{
+    margin:auto;
+    background:rgba(255,255,255,1);
+    box-shadow:0Px 6Px 22Px 0Px rgba(0,0,0,0.12);
+    border-radius:4Px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.qjs-cardrate >.left{
+    width: 100Px;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+}
+.qjs-cardrate >.left >.img{
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    border-top-left-radius:4Px;
+    border-bottom-left-radius:4Px;
+    height: 100%;
+    width: 100Px;
+}
+.qjs-cardrate >.middle{
+    padding-left:15Px;
+    padding-bottom: 15Px;
+    flex:5;
+    width:50%;
+}
+.qjs-cardrate >.middle >.namerow{
+    margin-top:15Px;
+    height:18Px;
+    display: flex;
+}
+.qjs-cardrate >.middle >.namerow >.left{
+    font-size:18Px;
+    font-weight:bold;
+    color:rgba(82,82,82,1);
+    line-height:26Px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.qjs-cardrate >.middle >.namerow >.tag{
+    padding-left:10Px;
+    padding-right: 10Px;
+    border-radius:9Px;
+    font-size:11Px;
+    color:rgba(165,165,165,1);
+    border:1Px solid rgba(210,210,210,1);
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    max-width: 80Px;
+}
+.qjs-cardrate >.middle >.team{
+    margin-top:11Px;
+    height:13Px;
+    font-size:13Px;
+    font-weight:bold;
+    color:rgba(82,82,82,1);
+    line-height:20Px;
+}
+.qjs-cardrate >.middle >.raterow{
+    margin-top:6Px;
+    display: flex;
+}
+.qjs-cardrate >.middle >.raterow >.left{
+    margin-right: 10Px;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*max-width: 200Px;*/
+}
+.qjs-cardrate >.middle >.raterow >.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qjs-cardrate >.middle >.memo{
+    font-size:11Px;
+    font-weight:400;
+    color:rgba(111,111,111,1);
+    line-height:17Px;
+}
+.qjs-cardrate >.right{
+    flex: 1;
+    padding-left: 16Px;
+    padding-right: 16Px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+@media (prefers-color-scheme: dark) {
+
+}

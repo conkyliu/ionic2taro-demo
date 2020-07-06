@@ -1,0 +1,57 @@
+.qjs-halfdialog{
+    position: absolute;
+    left: 0Px;
+    top: 0Px;
+    right: 0Px;
+    bottom: 0Px;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+}
+
+.qjs-halfdialog >.body{
+    position: fixed;
+    bottom: 0Px;
+    opacity: 1;
+    border-top-left-radius:10Px;
+    border-top-right-radius:10Px;
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 20Px;
+    height: auto;
+    /*min-height: 300Px;*/
+    animation:pop 500ms both;
+    -moz-animation:pop 500ms both; /* Firefox */
+    -webkit-animation:pop 500ms both; /* Safari and Chrome */
+    -o-animation:pop 500ms both; /* Opera */
+}
+@keyframes pop
+{
+    0%{height: 0Px}
+    10%{height: 150Px;}
+    20%{height: 300Px;}
+    30%{height: 450Px;}
+    /*40%{height: 400Px;}*/
+    /*50%{height: 500Px;}*/
+    /*60%{height: 600Px;}*/
+    /*70%{height: 700Px;}*/
+    100%{height: auto;}
+    /*from {height:0%;}*/
+    /*to {height: auto;}*/
+}
+@keyframes hide
+{
+    100%{height: auto;}
+    0%{height: 0Px}
+    /*from {height:auto;}*/
+    /*to {height:0%;}*/
+}
+
+.qjs-halfdialog >.body >.icon{
+    width: 22Px;
+    height: 22Px;
+    top:35Px;
+    right:35Px;
+    float: right;
+    position: relative;
+}

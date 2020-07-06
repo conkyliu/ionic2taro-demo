@@ -1,0 +1,22 @@
+.qjs-iconlabel{
+    display: flex;
+    height: auto;
+    width: 100%;
+    color:rgba(210,210,210,1);
+    font-weight:400;
+    font-size:12Px;
+    min-width: 50Px;
+    flex: 1;
+}
+.qjs-iconlabel >.icon{
+    height: auto;
+}
+
+.qjs-iconlabel >.label{
+    /*flex:1;*/
+    margin-left: 5Px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+}

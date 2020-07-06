@@ -1,0 +1,98 @@
+.qjs-card{
+    opacity: 0.8;
+    background:rgba(255,255,255,0.7);
+    box-shadow:0Px 5Px 20Px 0Px rgba(0,0,0,0.12);
+    border-radius:8Px;
+    display: flex;
+}
+
+.qjs-card >.left{
+    flex:1;
+    width: 50%;
+/*  flex:1用于最大占用宽度,width:50% 保障不会把右边元素顶出去, 这样可以自适应屏幕大小,文字会一直填充不会挤占元素  */
+}
+
+.qjs-card >.left >.name{
+    margin-left:22Px;
+    margin-top:11Px;
+    width:100%;
+    /*height:18Px;*/
+    font-size:18Px;
+    font-weight:bold;
+    color:#525252;
+    line-height:30Px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.qjs-card >.left>.date{
+    margin-left:22Px;
+    margin-top:4Px;
+    width:100%;
+    /*height:17Px;*/
+    font-size:12Px;
+    font-weight:400;
+    color:#D2D2D2;
+    line-height:20Px;
+}
+.qjs-card >.left>.title{
+    margin-left:22Px;
+    margin-top:18Px;
+    width:100%;
+    /*height:45Px;*/
+    font-size:18Px;
+    font-weight:500;
+    font-weight:bold;
+    line-height:22Px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.qjs-card >.left>.subtitle{
+    margin-top: 8Px;
+    margin-left:22Px;
+    width:100%;
+    font-size:15Px;
+    line-height:22Px;
+    /*height:45Px;*/
+    color:#A5A5A5;
+    padding-bottom: 15Px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.qjs-card >.right{
+    /*flex:1;*/
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.qjs-card >.right >.btn-comp{
+    width:96Px;
+    height:96Px;
+    margin-left: 18Px;
+    margin-right: 18Px;
+    border:1Px solid #979797;
+    border-radius:50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.qjs-card >.right >.btn-comp >.btn-plan{
+    width:100%;
+    height:12Px;
+    font-size:13Px;
+    font-weight:500;
+    color:#5F5F5F;
+    line-height:18Px;
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+}

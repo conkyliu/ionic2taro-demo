@@ -1,0 +1,37 @@
+.qjs-img-preview{
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background:#000000;*/
+}
+.qjs-img-preview .modal-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background:#000000;
+}
+.qjs-img-preview .modal-wrapper .index{
+    position: absolute;
+    top:40Px;
+    /*left:10Px;*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#FFFFFF;
+    font-size:20Px;
+    font-family:SourceHanSansCN-Medium,SourceHanSansCN;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:30Px;
+}
+.qjs-img-preview .modal-wrapper ion-icon{
+    position: absolute;
+    left:10Px;
+    top:24Px;
+    width: 25Px;
+    height: 36Px;
+    z-index: 10;
+}
+
+@media (prefers-color-scheme: dark) {
+
+}

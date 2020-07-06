@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67Px" height="66Px" viewBox="0 0 67 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>timing_btn_pause</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="93.5714286%" y1="100%" x2="6.25%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#849DED" offset="0%"></stop>
+            <stop stop-color="#4D64D7" offset="100%"></stop>
+        </linearGradient>
+        <path d="M32.9350336,1.06550336 C49.4418792,1.06550336 62.8689933,14.4926174 62.8689933,30.9994631 C62.8689933,47.5063087 49.4418792,60.9334228 32.9350336,60.9334228 C16.4281879,60.9334228 3.00107383,47.5063087 3.00107383,30.9994631 C3.00107383,14.4926174 16.4281879,1.06550336 32.9350336,1.06550336 Z M32.9350336,5.36080537 C18.7991946,5.36080537 7.29637584,16.8636242 7.29637584,30.9994631 C7.29637584,45.135302 18.7991946,56.6381208 32.9350336,56.6381208 C47.0708725,56.6381208 58.5736913,45.135302 58.5736913,30.9994631 C58.5736913,16.8636242 47.0708725,5.36080537 32.9350336,5.36080537 Z M28,23 C29.1045695,23 30,23.8954305 30,25 L30,37 C30,38.1045695 29.1045695,39 28,39 L26,39 C24.8954305,39 24,38.1045695 24,37 L24,25 C24,23.8954305 24.8954305,23 26,23 L28,23 Z M40,23 C41.1045695,23 42,23.8954305 42,25 L42,37 C42,38.1045695 41.1045695,39 40,39 L38,39 C36.8954305,39 36,38.1045695 36,37 L36,25 C36,23.8954305 36.8954305,23 38,23 L40,23 Z" id="path-2"></path>
+        <filter x="-6.1%" y="-6.0%" width="111.9%" height="111.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.747474747   0 0 0 0 0.78956229   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="计时器" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="动作间计时已开始" transform="translate(-218.000000, -503.000000)" fill-rule="nonzero">
+            <g id="编组-2" transform="translate(38.000000, 206.000000)">
+                <g id="编组">
+                    <g id="bofang-2" transform="translate(181.000000, 297.000000)">
+                        <g id="合并形状">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

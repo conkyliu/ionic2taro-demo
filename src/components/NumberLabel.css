@@ -1,0 +1,31 @@
+.qjs-numberlabel{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.qjs-numberlabel >.ipt{
+    flex:1;
+    font-size:18Px;
+    font-weight:bold;
+    color:rgba(82,82,82,1);
+    line-height:18Px;
+    --padding-end:0Px;
+    --padding-start:0Px;
+    --padding-top:0Px;
+    --padding-bottom:0Px;
+}
+.qjs-numberlabel >.label{
+    margin-top: 3Px;
+    margin-left:5Px;
+    font-size:14Px;
+    font-weight:400;
+    color:rgba(165,165,165,1);
+    line-height:18Px;
+    color:#A5A5A5;
+}
+
+@media (prefers-color-scheme: dark) {
+
+}

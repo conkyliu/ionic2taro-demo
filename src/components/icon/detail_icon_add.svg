@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12Px" height="12Px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>detail_icon_add</title>
+    <desc>Created with Sketch.</desc>
+<!--    <defs>-->
+<!--        <linearGradient x1="39.3007543%" y1="0%" x2="60.6992457%" y2="100%" id="linearGradient-1">-->
+<!--            <stop stop-color="#EDEDED" offset="0%"></stop>-->
+<!--            <stop stop-color="#FFFFFF" offset="48.4163851%"></stop>-->
+<!--            <stop stop-color="#E7E7E7" offset="100%"></stop>-->
+<!--        </linearGradient>-->
+<!--        <filter x="-19.9%" y="-9.2%" width="139.7%" height="118.4%" filterUnits="objectBoundingBox" id="filter-2">-->
+<!--            <feGaussianBlur stdDeviation="27" in="SourceGraphic"></feGaussianBlur>-->
+<!--        </filter>-->
+<!--        <rect id="path-3" x="30" y="131" width="318" height="548"></rect>-->
+<!--        <filter x="-12.7%" y="-4.7%" width="125.5%" height="114.8%" filterUnits="objectBoundingBox" id="filter-4">-->
+<!--            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>-->
+<!--            <feGaussianBlur stdDeviation="11" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>-->
+<!--            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.122732736 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>-->
+<!--        </filter>-->
+<!--    </defs>-->
+    <g id="1.20-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="训练热身次数" transform="translate(-247.000000, -638.000000)">
+<!--            <rect fill="#FFFFFF" x="0" y="0" width="375" height="812"></rect>-->
+<!--            <rect id="矩形" fill="url(#linearGradient-1)" filter="url(#filter-2)" x="-16.5" y="-35" width="408" height="882"></rect>-->
+<!--            <g id="矩形">-->
+<!--                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>-->
+<!--                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>-->
+<!--            </g>-->
+            <g id="加一组按钮" transform="translate(240.000000, 634.000000)">
+<!--                <rect id="矩形" stroke="#5F5F5F" fill="#FFFFFF" x="0" y="0" width="84" height="20" rx="10"></rect>-->
+<!--                <path d="M10,0 L24,0 L24,0 L24,20 L10,20 C4.4771525,20 6.76353751e-16,15.5228475 0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="矩形" fill="#5F5F5F"></path>-->
+                <g id="detail_icon_add-2" transform="translate(7.000000, 4.000000)" fill="#FFFFFF">
+                    <path d="M6,1 C6.41421356,1 6.75,1.33578644 6.75,1.75 L6.75,5.25 L10.25,5.25 C10.6642136,5.25 11,5.58578644 11,6 C11,6.41421356 10.6642136,6.75 10.25,6.75 L6.749,6.75 L6.75,10.25 C6.75,10.6642136 6.41421356,11 6,11 C5.58578644,11 5.25,10.6642136 5.25,10.25 L5.249,6.75 L1.75,6.75 C1.33578644,6.75 1,6.41421356 1,6 C1,5.58578644 1.33578644,5.25 1.75,5.25 L5.25,5.25 L5.25,1.75 C5.25,1.33578644 5.58578644,1 6,1 Z" id="detail_icon_add"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

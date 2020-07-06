@@ -1,0 +1,32 @@
+.qjs-scalebar{
+    display:flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /*min-height: 10Px;*/
+}
+
+.qjs-scalebar >.item {
+    flex:1;
+    height: 2Px;
+    margin-right: 2Px;
+    background: #D2D2D2;
+    border-radius: 80Px;
+}
+.qjs-scalebar >.current {
+    background:#5F5F5F;
+}
+.qjs-scalebar >.current2 {
+    background:#FA7272;
+}
+
+.qjs-scalebar >.desc {
+    font-size:9Px;
+    font-weight:500;
+    color:rgba(95,95,95,1);
+    line-height:13Px;
+}
+@media (prefers-color-scheme: dark) {
+
+}

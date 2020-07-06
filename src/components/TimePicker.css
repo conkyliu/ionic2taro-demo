@@ -1,0 +1,40 @@
+.qjs-number-picker{
+    width: 100%;
+    height: auto;
+}
+.qjs-number-picker >.title{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size:17Px;
+    font-family:SourceHanSansCN-Regular,SourceHanSansCN;
+    font-weight:400;
+    color:rgba(95,95,95,1);
+    line-height:26Px;
+}
+.qjs-number-picker >.column{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.qjs-number-picker >.column >.item{
+    overflow: auto;
+    scrollbar-width: none;/*不显示滚动条*/
+    /*overflow: hidden;*/
+    height: 165Px;
+}
+.qjs-number-picker >.column >.item::-webkit-scrollbar {
+    /*界面可以滚动但是不显示滚动条*/
+    width: 0;
+}
+.qjs-number-picker >.column >.item div{
+    font-size: 36Px;
+    font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+    font-weight: 400;
+    color:#BFC9FF;
+    line-height: 55Px;
+}

@@ -1,0 +1,20 @@
+
+.heightBoxWith100Per {
+    background-repeat:no-repeat;
+    background-image: url('http://crm.lightestsport.com:8018/Appv4/Demo/action_imgs/1.jpg');
+    background-size: 100% auto;
+    background-position:top center;
+    border: 1Px solid;
+    height: 100Px;
+    width: 250Px;
+}
+
+.weightBoxWith100Pre {
+    background-repeat:no-repeat;
+    background-image: url('http://crm.lightestsport.com:8018/Appv4/Demo/action_imgs/1.jpg');
+    background-size: auto 100% ;
+    background-position:top center;
+    border: 1Px solid;
+    height: 100Px;
+    width: 100Px;
+}

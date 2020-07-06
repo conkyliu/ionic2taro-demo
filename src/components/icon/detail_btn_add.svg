@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18Px" height="18Px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>detail_btn_add</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="97" height="97" rx="4"></rect>
+    </defs>
+    <g id="Q&amp;A" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="提问输出" transform="translate(-283.000000, -570.000000)">
+            <g id="编组-2" transform="translate(34.000000, 321.000000)">
+                <g id="detail_btn_add" transform="translate(210.000000, 210.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="框" stroke="#A5A5A5" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5,5" xlink:href="#path-1"></use>
+                    <path d="M48,39 C48.6211238,39 49.1250151,39.5039113 49.1250151,40.1261597 L49.1250151,40.1261597 L49.125,46.875 L55.8750251,46.875005 C56.4536161,46.875005 56.9321662,47.3139503 56.9934014,47.8774567 L57.0000201,48 C57.0000201,48.6211037 56.4961288,49.124995 55.8750251,49.124995 L55.8750251,49.124995 L49.125,49.124 L49.1250151,55.875005 C49.1250151,56.4535773 48.6860523,56.9321436 48.1225436,56.993381 L48,57 C47.3789163,57 46.875005,56.4961088 46.875005,55.875005 L46.875005,55.875005 L46.875,49.124 L40.1255773,49.124995 C39.5447935,49.124995 39.0676366,48.6860497 39.0065969,48.1225433 L39,48 C39,47.3788963 39.5033089,46.875005 40.1255773,46.875005 L40.1255773,46.875005 L46.875,46.875 L46.875005,40.1261597 C46.875005,39.5453945 47.3139503,39.0677141 47.8774567,39.0066046 Z" id="形状结合" fill="#5F5F5F" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

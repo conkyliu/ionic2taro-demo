@@ -1,0 +1,61 @@
+.qjs-dataindex{
+    padding-top:5Px;
+    padding-bottom: 5Px;
+    height: auto;
+    width: auto;
+    display: flex;
+    min-width: 120Px;
+    background: inherit;
+}
+
+.qjs-dataindex >.name{
+    font-size:18Px;
+    font-weight:bold;
+    color:rgba(82,82,82,1);
+    line-height:26Px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+
+}
+.qjs-dataindex >.right{
+}
+.qjs-dataindex >.right >.value{
+    width: auto;
+    display: flex;
+    font-size:22Px;
+    font-weight:bold;
+    color:rgba(77,100,215,1);
+    line-height:33Px;
+}
+.qjs-dataindex >.right >.value >.num{
+    /*height: 100%;*/
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.qjs-dataindex >.right >.value >.icon{
+    width: 15Px;
+    display: flex;
+    /*text-align: center;*/
+    align-items: center;
+    justify-items: center;
+}
+
+.qjs-dataindex >.right >.subvalue{
+    font-size:9Px;
+    font-weight:400;
+    color:rgba(95,95,95,1);
+    line-height:13Px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+}

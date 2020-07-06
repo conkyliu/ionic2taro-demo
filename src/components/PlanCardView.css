@@ -1,0 +1,55 @@
+.qjs-plancardview{
+    opacity: 0.8;
+    background-color: #00000035;
+    background-repeat: no-repeat;
+    border-radius:8Px;
+    padding-bottom: 12Px;
+    box-shadow:0Px 5Px 20Px 0Px rgba(0,0,0,0.12);
+    position: relative;
+    min-width: 300Px;
+    min-height: 100Px;
+}
+.qjs-plancardview .name{
+    font-size:22Px;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    line-height:33Px;
+    padding-left:22Px;
+    padding-top: 12Px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.qjs-plancardview .memo{
+    font-size:18Px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:26Px;
+    padding-left:22Px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+
+}
+.qjs-plancardview .title{
+    font-size:22Px;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    line-height:33Px;
+    padding-left:22Px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.qjs-plancardview .img{
+    float: right;
+    margin-right:10Px;
+    width: 49Px;
+    height: 49Px;
+    margin-top:-3Px;
+    background-image: url("./icon/plan_icon_label.svg");
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
